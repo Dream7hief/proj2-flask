@@ -30,10 +30,22 @@ tr.even {
     background-color: rgb(224,213,179);
 }
 
+tr.highlight{
+    /* Highlight current date */
+    background-color: rgb(255,255,0);
+}
+
 .class-schedule .week {
     
     font-weight: bolder;
     font-size: 150%; 
+    text-align: center; 
+}
+
+.class-schedule .date {
+    
+    font-weight: bolder;
+    font-size: 100%; 
     text-align: center; 
 }
 
@@ -50,3 +62,5 @@ tr.even {
     padding-left: 2ex;
     font-style: italic;
 }
+
+
